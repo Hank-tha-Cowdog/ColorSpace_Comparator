@@ -40,9 +40,9 @@ pip install matplotlib
 python color_space_comparator.py
 ```
 
-2. To compare different color spaces, modify the `image_primaries` dictionary with your custom chromaticity coordinates:
+2. To compare different color spaces, modify the `dcip3_primaries` dictionary with your custom chromaticity coordinates:
 ```python
-image_primaries = {
+dcip3_primaries = {
     'red': (x, y),
     'green': (x, y),
     'blue': (x, y)
